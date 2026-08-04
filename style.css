@@ -103,6 +103,15 @@ body {
   align-content: center;
   margin: 0 auto;
   text-align: center;
+  text-shadow:
+    -1.5px -1.5px 0 #000,
+     1.5px -1.5px 0 #000,
+    -1.5px  1.5px 0 #000,
+     1.5px  1.5px 0 #000,
+     0px  1.5px 0 #000,
+     0px -1.5px 0 #000,
+     1.5px  0px 0 #000,
+    -1.5px  0px 0 #000;
 }
 
 .button-container {
@@ -127,6 +136,10 @@ body {
   height: 2em;
   margin-left: 10px;
   margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .basic-button:hover {
@@ -144,6 +157,10 @@ body {
   height: 2em;
   margin-left: 10px;
   margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .copy-button:hover {
